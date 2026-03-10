@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1773171218555" clover="3.2.0">
-  <project timestamp="1773171218555" name="All files">
+<coverage generated="1773185807088" clover="3.2.0">
+  <project timestamp="1773185807090" name="All files">
     <metrics statements="178" coveredstatements="178" conditionals="50" coveredconditionals="45" methods="33" coveredmethods="31" elements="261" coveredelements="254" complexity="0" loc="178" ncloc="178" packages="1" files="1" classes="1"/>
-    <file name="popup.js" path="/Users/danielcampos/Documents/GitHub/CS3250-spring26-daniel-/src/popup.js">
+    <file name="popup.js" path="/Users/danielcampos/Documents/GitHub/CS3250-spring26/src/popup.js">
       <metrics statements="178" coveredstatements="178" conditionals="50" coveredconditionals="45" methods="33" coveredmethods="31"/>
       <line num="26" count="1" type="stmt"/>
       <line num="27" count="1" type="stmt"/>
