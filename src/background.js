@@ -166,3 +166,7 @@ browser.runtime.onInstalled.addListener(async (_details) => {
 		await setStorage({ [STORAGE_KEYS.GROUPS]: DEFAULT_GROUPS, [STORAGE_KEYS.ACTIVE_GROUP]: DEFAULT_GROUPS[0].id });
 	}
 });
+
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = { getStorage, setStorage, nextIndex, broadcastSetBackground };
+}
