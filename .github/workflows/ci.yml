@@ -16,7 +16,13 @@ jobs:
           node-version: '20'
       - name: Install dependencies
         run: npm install
+
       - name: Run ESLint
         run: npx eslint src/popup.js src/background.js
+
       - name: Run tests
         run: npm test
+        
+      - name: Sanity check
+        run: echo "GitHub Actions is running, ESLint passed, and all tests passed!"
+        
