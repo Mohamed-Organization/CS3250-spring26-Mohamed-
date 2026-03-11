@@ -89,8 +89,8 @@ This wil display the documentation as a website in the browser
 
 Team Anonymous 
 
-- Ramin
+- Ramin Akbari
 - Daniel Campos
-- Alejandro
+- Alejandro Casillas
 - Julian Aguirre
-- Mohamed
+- Mohamed Abdin
