@@ -1,3 +1,6 @@
+// I asked claude to guide me on how to make the test file
+// Prompt: my test file isn't checking my popup.js how can I fix that?
+
 /**
  * @jest-environment jsdom
  */

@@ -41,6 +41,7 @@ let lockedInTheme = null;   // Remembers what theme you actually clicked
  * @returns {Promise<void>} Resolves after the UI has been fully rebuilt.
  */
 // this function has some asistance from ai
+//Prompt: whats the best way to check and access themes that we own in firefox
 async function initializePopup() {
     const currentDiv = document.getElementById('popup-content');
     if (!currentDiv) return;
